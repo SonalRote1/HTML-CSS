@@ -1,0 +1,338 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-header {
+    border-bottom: 1px solid rgb(67, 66, 66);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.foryou{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+.foryou:hover{
+    background-color: rgb(42, 39, 39);
+}
+.following{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+.foryou-ele{
+    width: 60px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: rgb(9, 157, 207);
+    position: absolute;
+    bottom: -1px;
+}
+.following:hover{
+    background-color: rgb(42, 39, 39);
+}
+.what-happen {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid rgb(67, 66, 66);
+    height: 153px;
+    position: relative;
+}
+.what-happen1 {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+}
+.what-happen-text {
+    margin-left: 8px;
+    color: gray;
+    font-size: 18px;
+}
+.earth {
+    width: 15px;
+    height: 15px;
+}
+.what-happen2 {
+    margin-left: 60px;
+    display: flex;
+    width: 155px;
+    cursor: pointer;
+    padding: 8px;
+}
+.what-happen2:hover{
+    background-color: rgba(42, 43, 94, 0.19);
+    border-radius: 15px;
+}
+.everyone {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(63, 147, 237);
+}
+.what-happen3{
+    border-top: 1px solid rgb(42, 41, 41);
+    margin-top: 12px;
+    margin-left: 50px;
+    width: 515px;
+    height: 52px;
+}
+.media-div, .gif-div, .poll-div, .smile-div, .schedule-div {
+    display: inline-block;
+    margin-top: 12px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    cursor: pointer;
+    position: relative;
+}
+.gif-div, .poll-div, .smile-div, .schedule-div {
+    margin-left: 5px;
+}
+.media-div{
+    margin-left: 12px;
+}
+.media-div:hover,
+.gif-div:hover, 
+.poll-div:hover, 
+.smile-div:hover, 
+.schedule-div:hover {
+    background-color: rgb(34, 33, 33);
+}
+
+.media, .poll, .gif, .smile, .schedule, .location {
+    width: 18px;
+    padding: 8px;
+}
+.location {
+    opacity: 0.4;
+}
+.media-text, .gif-text, .poll-text, .smile-text, .schedule-text {
+    font-size: 12px;
+    height: 18px;
+    background-color: rgb(79, 76, 76);
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+.media-text{
+    width: 38px;
+}
+.gif-text{
+    width: 26px;
+    margin-left: 3px;
+}
+.poll-text{
+    width: 28px;
+}
+.smile-text{
+    width: 36px;
+}
+.schedule-text{
+    width: 56px;
+}
+.media-div:hover .media-text,
+.gif-div:hover .gif-text, 
+.poll-div:hover .poll-text, 
+.smile-div:hover .smile-text, 
+.schedule-div:hover .schedule-text {
+    opacity: 1;
+}
+.blur-post {
+    margin-left: 195px;
+    margin-top: 0;
+    display: inline-block;
+    position: absolute;
+    top: 108px;
+}
+.blur-post-btn{
+    height: 35px;
+    width: 65px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(37, 168, 250);
+    color: white;
+    font-weight: bold;
+    padding-top: 3px;
+    opacity: 0.5;
+}
+.show-post {
+    color: rgb(2, 117, 189);
+    width: 100%;
+    border-bottom: 1px solid rgb(67, 66, 66);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.feed1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.feed1-channel {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.feed1-channel-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+}
+.feed1-channel-name {
+    margin-left: 10px;
+    margin-top: 3px;
+    position: relative;
+}
+.tick1 {
+    margin-left: 3px;
+    width: 15px;
+    position: absolute;
+    top: 2px;
+}
+.feed1-channel-username {
+    margin-left: 25px;
+    font-size: 13px;
+    color: gray;
+    margin-top: 5px;
+}
+.bull-dots1{
+    margin-left: 220px;
+    width: 15px;
+    height: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-size: 8px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+}
+.bull-dots1:hover {
+    background-color: rgb(139, 215, 240, 0.1);
+    color: rgb(6, 177, 234);
+}
+.tooltip1 {
+    position: absolute;
+    left: 1px;
+    bottom: -22px;
+    font-size: 12px;
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+    margin-top: 9px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    opacity: 0;
+}
+.bull-dots1:hover .tooltip1{
+    opacity: 1;
+}
+.feed1-channel-description {
+    margin-top: -8px;
+    margin-left: 58px;
+}
+.feed1-channel-main-img {
+    width: 480px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.feed1-bottom, .comment, .share, .heart, .imp, .bookmark, .share1 {
+    display: flex;
+}
+.comment-img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.heart-img {
+    width: 18px;
+    height: 18px;
+}
+.share-img {
+    width: 20px;
+    height: 20px;
+}
+.bookmark-img {
+    width: 16px;
+    height: 16px;
+}
+.share1-img{
+    width: 22px;
+    height: 22px;
+}
+.imp-img {
+    width: 18px;
+    height: 18px;
+}
+.feed1-bottom{
+    margin-top: 15px;
+    margin-left: 60px;
+    color: gray;
+    font-size: 13px;
+}
+.heart-img, .share-img, .bookmark-img, .imp-img{
+    margin-left: 65px;
+    cursor: pointer;
+}
+.share1-img{
+    margin-left: 12px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+.imp-img{
+    margin-top: -3px;
+}
+.comment-text, .share-text, .heart-text, .imp-text {
+    margin-left: 5px;
+}
+.comment-img-div, .share-img-div, .heart-img-div, .imp-img-div, .bookmark, .share1{
+    position: relative;
+}
+.reply, .repost, .share-t, .like, .view, .bookmark-t{
+    position: absolute;
+    bottom: -18px;
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+.repost, .view, .bookmark-t {
+    left: 55px;
+}
+.like {
+    left: 60px;
+}
+.comment-img-div:hover .reply, 
+.heart-img-div:hover .like, 
+.share-img-div:hover .repost, 
+.bookmark:hover .bookmark-t, 
+.imp-img-div:hover .view, 
+.share1:hover .share1-t {
+    opacity: 1;
+}
